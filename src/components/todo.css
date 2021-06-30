@@ -1,0 +1,64 @@
+.todo-input {
+    display: flex;
+    flex-grow: 1;
+    font-size: 24px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px 5px 0 0;
+  }
+  .flex {
+    display: flex;
+  }
+  .card {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .submit {
+    padding: 3px;
+    background-color: violet;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    transition: 0.3s;
+  }
+  .submit:hover {
+    background-color: rgb(236, 79, 236);
+  }
+  .todo-list {
+    margin-top: 1rem;
+  }
+  .todo-tile {
+    margin: 1rem;
+    padding: 3px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  .todo-tile:hover {
+    background-color: rgb(255, 251, 242);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .button {
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .button:hover {
+    background-color: rgb(253, 123, 123);
+  }
+  .title {
+    flex-grow: 1;
+  }
+  .lineThrough{
+      text-decoration: line-through;
+  }
